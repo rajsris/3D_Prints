@@ -1,0 +1,66 @@
+Changes notes for Calilantern Published 11/02/2025
+In this update:
+- CaliLantern Calculator V3.5 EXCEL 
+- CaliLantern Calculator V3.5.1 ODS 
+- PDF Guide V3.2
+
+- Fixed a validation bug when opening the ODS file in LibreOffice rather than Apache OpenOffice.
+- ODS file will now be developed in LibreOffice.
+
+Changes notes for Calilantern Published 08/01/2025
+In this update:
+- CaliLantern Calculator V3.5 EXCEL 
+- CaliLantern Calculator V3.5 ODS 
+- PDF Guide V3.2
+
+- Corrected a conflict between calculator and PDF regarding klipper skew clear command location. It should be at the START of the end print macro.
+
+
+Changes notes for Calilantern Published 01/01/2025
+In this update:
+- CaliLantern Calculator V3.5 EXCEL 
+- CaliLantern Calculator V3.5 ODS 
+- PDF Guide V3.1
+
+- Made the Excel version into dark mode.
+- Fixed an error with skew factor affecting RRF and Marlin when using skew factor.
+- Removed Sheet protection ODS Calculator sheet to deal with a bug where inputs would not be accepted.
+
+Change notes for Calilantern published 28/10/2024
+in this update:
+- CaliLantern Calculator V3.4 EXCEL 
+- CaliLantern Calculator V3.4 ODS 
+- PDF Guide V3.1
+
+-Fixed a error in ODS sheet where scale had validation for skew method
+
+Change notes for Calilantern published 02/06/2024
+in this update:
+- CaliLantern Calculator V3.3 EXCEL 
+- CaliLantern Calculator V3.3 ODS 
+- PDF Guide V3.1
+
+-There was some references to the old 22 measurment system on page 14 which have now been removed.
+-The 'next skew estimate' shows the wrong sign (+/-), even though the next skew command is correct.
+-Added Bambu Studio to Slicers. (Bambu skew correction not implemented)
+-change notes moved to this document.
+-created open document format calculator for those not using microsoft excel.
+
+
+Changes notes for CaliLantern published 10-03-2024
+In this update:
+- Calculator V3.2
+
+There was a bug causing the 'Marlin Firmware Adjustment (alternative)' skew correction values to always show as zero even when skew adjustment was suggested. This has now been fixed.
+
+Changes notes for CaliLantern published 04-03-2024
+In this update:
+- Calculator V3.1
+- STL V24
+
+There was a bug with calibrating with calilantern at scales other than 100%. This is now fixed.
+If you tried calibrating at a size other than 100%/100mm you should now be able to do this successfully.
+If you printed at 100%/100mm size then there is no need to calibrate again.
+
+Some additional clearance has been added for measuring the ZX and ZY diagonals.
+The wings for ZX and ZY now have fillted edges instead of chamfers to reduce corner bulge.
