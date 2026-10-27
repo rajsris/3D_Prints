@@ -1,9 +1,0 @@
-verbosity=1
-bootlogo=false
-console=both
-disp_mode=1920x1080p60
-overlay_prefix=sun50i-h616
-fdtfile=sun50i-h616-bigtreetech-cb1-sd.dtb
-rootdev=UUID=1cffc0bd-acea-478d-94ab-cc7cc0447fa7
-rootfstype=ext4
-usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
